@@ -1,7 +1,8 @@
+
 import { NewBudget } from "./NewBudget";
 import { BudgetControl } from './BudgetControl';
 
-export const Header = ({ presupuesto, setPresupuesto, isValidPresupuesto, setIsValidPresupuesto }) => {
+const Header = ({ presupuesto, setPresupuesto, isValidPresupuesto, setIsValidPresupuesto }) => {
     return (
         <header>
             <h1>Planificador de Gastos</h1>
@@ -20,7 +21,8 @@ export const Header = ({ presupuesto, setPresupuesto, isValidPresupuesto, setIsV
                 />
             )}
 
-
         </header>
     )
 }
+
+export default Header
