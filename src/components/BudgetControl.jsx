@@ -1,4 +1,4 @@
-import { formatearDinero } from '../helpers/helpers';
+import { formatearDinero } from '../helpers';
 
 export const BudgetControl = ({presupuesto}) => {
 
