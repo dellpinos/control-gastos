@@ -1,8 +1,7 @@
 import Gasto from "./Gasto"
 
-const ListadoGastos = ({gastos}) => {
+const ListadoGastos = ({gastos, setGastoEditar, eliminarGasto}) => {
 
-    console.log(gastos.length)
   return (
     <div className="listado-gastos contenedor">
 
@@ -13,6 +12,8 @@ const ListadoGastos = ({gastos}) => {
             <Gasto 
                 key={gasto.id}
                 gasto={gasto}
+                setGastoEditar={setGastoEditar}
+                eliminarGasto={eliminarGasto}
             />
         ))}
     </div>
