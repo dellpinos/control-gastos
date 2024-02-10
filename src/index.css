@@ -207,8 +207,9 @@ header h1 {
 }
 .contenido-presupuesto p.negativo,
 .contenido-presupuesto p.negativo span {
-    color: red;
+    color: #EF4444;
 }
+
 .contenido-presupuesto span {
     font-weight: 900;
     color: var(--azul);
@@ -383,7 +384,41 @@ body .modal {
 
 .CircularProgressbar .CircularProgressbar-text {
     font-size: 1rem !important;
+
 }
+.circular-progress-contenedor {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.circular-progress-contenedor-text {
+
+    color: #3B82F6;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    p {
+        margin: 0;
+    }
+}
+
+/* Texto Rojo */
+.text-red {
+    color: #EF4444;
+}
+
+
+
+
+
+
 
 /*** SWIPE LIST OVERRIDES **/
 .swipe-action__leading {
